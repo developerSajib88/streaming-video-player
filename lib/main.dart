@@ -29,6 +29,7 @@ class _MyPlayerState extends State<MyPlayer> {
   late VideoPlayerController videoPlayerController;
   late CustomVideoPlayerController _customVideoPlayerController;
 
+  //Must be needed to https:// link not http
   String videoUrl = "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4";
 
 
